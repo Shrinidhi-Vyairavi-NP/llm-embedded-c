@@ -1,0 +1,9 @@
+@"
+.venv/
+.env
+__pycache__/
+*.exe
+build/
+"@ | Out-File -Encoding ascii .gitignore
+
+New-Item .env -ItemType File
